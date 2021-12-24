@@ -2,6 +2,7 @@ const memeGen = document.querySelector('form');
 const btn = document.querySelector('button');
 const memeContainer = document.querySelector('#showcase');
 
+
 btn.addEventListener('click', function generateMeme (e) {
     e.preventDefault();
     let linkUrl = document.querySelector('input[name="image"]');

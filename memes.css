@@ -111,37 +111,36 @@ input {
 .meme-image {
     height: auto;
     width: auto;
-    min-height: 20rem;
-    min-width: 20rem;
+    min-height: 40rem;
+    min-width: 40rem;
     position: relative;
     display: inline-block;
     margin: 2rem auto;
     padding: 2rem;
     background-size: cover;
-    text-align: center;
-    align-items: center;
-    
 }
 /* text stroke effect from https://dev.to/codingdudecom/everything-about-stroke-text-in-css-561i */
 .top-text {
     position: absolute;
     top:1rem;
     color:white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow:0.2rem 0 0 black,0 0.2rem 0 black,-0.2rem 0 0 black,0 -0.2rem 0 black;
     text-align:center;
+    justify-content: center;
 }
 
 .bottom-text {
     position: absolute;
     bottom: 1rem;
     color:white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow:0.2rem 0 0 black,0 0.2rem 0 black,-0.2rem 0 0 black,0 -0.2rem 0 black;
     text-align:center;
+    justify-content: center;
 }
 
