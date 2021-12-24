@@ -1,0 +1,147 @@
+/* initial styling follows guide on https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form */
+
+form.meme-form {
+    display: table;
+    position: relative;
+    margin:auto;
+    padding:2rem;
+    
+}
+
+div.meme-form {
+    display: table-row;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: navy;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 1rem;
+}
+
+label {
+    padding-right: 1em;
+}
+
+.meme-form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    font-size: 2rem;
+}
+
+#top {
+    margin-top:4rem;
+}
+
+input {
+    width: 25rem;
+    height: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+#builder {
+    height: auto;
+    width: 50em;
+    position: relative;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: lightgrey;
+    border-radius: 1em;
+    align-items: center;
+    text-align: center;
+    
+    justify-content: center;
+}
+
+/* #generate {
+    display: table-row;
+    width: auto;
+    margin: 1rem auto;
+    padding: 1rem;
+    position: relative;
+    height:auto;
+    align-items: center; */
+/* } */
+
+#submit {
+    width:8em;
+    height:auto;
+    padding:1rem;
+    margin-top: 2rem;
+    position:relative;
+    background-color: navy;
+    border:none;
+    color:white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#remove {
+    width:8em;
+    height:auto;
+    padding:1rem;
+    margin-top: 2rem;
+    position:relative;
+    background-color: navy;
+    border:none;
+    color:white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#showcase {
+    height: auto;
+    width: 95%;
+    margin: 3rem auto;
+    padding: 2rem;
+    display: inline-block;
+
+}
+
+.meme-image {
+    height: auto;
+    width: auto;
+    min-height: 20rem;
+    min-width: 20rem;
+    position: relative;
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    
+}
+/* text stroke effect from https://dev.to/codingdudecom/everything-about-stroke-text-in-css-561i */
+.top-text {
+    position: absolute;
+    top:1rem;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:0.2rem 0 0 black,0 0.2rem 0 black,-0.2rem 0 0 black,0 -0.2rem 0 black;
+    text-align:center;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 1rem;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:0.2rem 0 0 black,0 0.2rem 0 black,-0.2rem 0 0 black,0 -0.2rem 0 black;
+    text-align:center;
+}
+
