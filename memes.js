@@ -16,8 +16,11 @@ btn.addEventListener('click', function generateMeme (e) {
           
     function makeMeme(image, header, footer) {    
         let meme = document.createElement('div');
+        let backPic = document.createElement('img');
+
         meme.classList.add('meme-image');
-        meme.style.backgroundImage = `url('${image}')`;
+        backPic.setAttribute('src', image);       
+        backPic.classList.add('meme-pic');
 
         let top = document.createElement('p');
         let bottom = document.createElement('p');
@@ -25,11 +28,14 @@ btn.addEventListener('click', function generateMeme (e) {
         bottom.classList.add('bottom-text');
         top.innerText = `${header}`;
         bottom.innerText = `${footer}`; 
+
+        meme.appendChild(backPic);
         meme.appendChild(top);
         meme.appendChild(bottom);
         return meme;
         }
 
+    
     memeContainer.appendChild(newMeme);
     memeGen.reset();
 }
